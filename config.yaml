@@ -1,0 +1,13 @@
+log_dir: './logs'
+data_dir: './data'
+default_paragraph_length: 50
+n_epoch: 200
+seq_length: 25
+batch_size: 64
+learning_rate: 0.001
+decay_steps: 1000
+decay_rate: 0.97
+grad_clip: 5
+hidden_size: 256
+num_layers: 2
+metadata: 'metadata.tsv'
